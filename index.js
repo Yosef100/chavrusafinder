@@ -14,7 +14,7 @@ loginButton.addEventListener("click", (e) => {
         // If the credentials are valid, show an alert box and reload the page
         loginErrorMsg.style.opacity = 0;
         alert("You have successfully logged in.");
-        location.reload();
+       
         function Redirect() 
     {  
         window.location="http://www.google.com"; 
