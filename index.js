@@ -1,7 +1,10 @@
 const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
-
+function Redirect() 
+            {  
+                window.location="http://www.google.com"; 
+            }
 // When the login button is clicked, the following code is executed
 loginButton.addEventListener("click", (e) => {
     // Prevent the default submission of the form
@@ -12,10 +15,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "user" && password === "1234") {
         // If the credentials are valid, show an alert box and reload the page
-        function Redirect() 
-            {  
-                window.location="http://www.google.com"; 
-            } 
+         
      
         setTimeout('Redirect()', 1000); 
         loginErrorMsg.style.opacity = 0;
