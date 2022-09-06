@@ -15,6 +15,11 @@ loginButton.addEventListener("click", (e) => {
         loginErrorMsg.style.opacity = 0;
         alert("You have successfully logged in.");
         location.reload();
+        function Redirect() 
+    {  
+        window.location="http://www.google.com"; 
+    } 
+    setTimeout('Redirect()', 5000);
     } else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
