@@ -19,7 +19,7 @@ loginButton.addEventListener("click", (e) => {
     {  
         window.location="http://www.google.com"; 
     } 
-    setTimeout('Redirect()', 5000);
+    setTimeout('Redirect()', 1000);
     } else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
