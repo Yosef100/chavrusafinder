@@ -13,13 +13,15 @@ loginButton.addEventListener("click", (e) => {
     if (username === "user" && password === "1234") {
         // If the credentials are valid, show an alert box and reload the page
         loginErrorMsg.style.opacity = 0;
+        function Redirect() 
+            {  
+                window.location="http://www.google.com"; 
+            } 
+     
+        setTimeout('Redirect()', 1000); 
         alert("You have successfully logged in.");
        
-        function Redirect() 
-    {  
-        window.location="http://www.google.com"; 
-    } 
-    setTimeout('Redirect()', 1000);
+        
     } else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
