@@ -12,14 +12,15 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "user" && password === "1234") {
         // If the credentials are valid, show an alert box and reload the page
-        loginErrorMsg.style.opacity = 0;
         function Redirect() 
             {  
                 window.location="http://www.google.com"; 
             } 
      
         setTimeout('Redirect()', 1000); 
-        alert("You have successfully logged in.");
+        loginErrorMsg.style.opacity = 0;
+        
+        //alert("You have successfully logged in.");
        
         
     } else {
