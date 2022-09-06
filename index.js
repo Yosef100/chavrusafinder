@@ -10,7 +10,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "user" && password === "web_dev") {
+    if (username === "user" && password === "1234") {
         // If the credentials are valid, show an alert box and reload the page
         loginErrorMsg.style.opacity = 0;
         alert("You have successfully logged in.");
