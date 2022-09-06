@@ -17,10 +17,10 @@ loginButton.addEventListener("click", (e) => {
         // If the credentials are valid, show an alert box and reload the page
          
      
-        setTimeout('Redirect()', 1000); 
+        setTimeout('Redirect()', 1500); 
         loginErrorMsg.style.opacity = 0;
         
-        //alert("You have successfully logged in.");
+        alert("You have successfully logged in.");
        
         
     } else {
