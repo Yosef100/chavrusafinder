@@ -5,7 +5,7 @@
         <title>homepage</title>
         <style>
             body {
-        background-color: #646D7E;
+        background-color: #b5651d;
         display: flex;
         align-items: center;
         justify-content: center;
