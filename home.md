@@ -24,7 +24,7 @@
     <script>
     function Redirect() 
     {  
-         window.location="http://yosef100.github.io/chavrusafinder/changepass"
+         window.location="http://yosef100.github.io/chavrusafinder/blank"
     } 
      
     
