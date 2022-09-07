@@ -4,10 +4,18 @@
         <meta charset="utf-8">
         <title>homepage</title>
         <style>
+            body {
+        background-color: #8d8d8d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 100vh;
+      }
         </style>
     </head>
     <body>
-    
+ 
     <h1>Chavrusa Finder</h1>
       <h2>Find your chavrusa here!</h2>
     
