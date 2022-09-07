@@ -16,7 +16,7 @@
     <script>
     function Redirect() 
     {  
-        window.location="http://www.google.com"; 
+         window.location="http://yosef100.github.io/chavrusafinder/changepass"
     } 
      
     
@@ -25,8 +25,8 @@
     // 2. Define the function that will respond to the event.
     // callback 
     var onButtonClick = function() {
-        clickerButton.textContent = "Oh wow, you clicked me!";
-        //setTimeout('Redirect()', 1000);
+        //clickerButton.textContent = "Oh wow, you clicked me!";
+        setTimeout('Redirect()', 1000);
     };
     // 3. Add the event listener for the element and function
     // anonymous "inline"
