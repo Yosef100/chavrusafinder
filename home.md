@@ -14,12 +14,19 @@
     <button id="clicker">Change Password</button>
     
     <script>
+    function Redirect() 
+    {  
+        window.location="http://www.google.com"; 
+    } 
+     
+    
     // 1. Find and store the element we want to listen to events on.
     var clickerButton = document.getElementById("clicker");
     // 2. Define the function that will respond to the event.
     // callback 
     var onButtonClick = function() {
         clickerButton.textContent = "Oh wow, you clicked me!";
+        //setTimeout('Redirect()', 1000);
     };
     // 3. Add the event listener for the element and function
     // anonymous "inline"
