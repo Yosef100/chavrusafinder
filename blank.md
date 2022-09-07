@@ -1,7 +1,7 @@
 <script>
   function Redirect() 
             {  
-                window.location="http://yosef100.github.io/chavrusafinder/"; 
+                window.location="http://yosef100.github.io/chavrusafinder/changepass"; 
             }
-  setTimeout('Redirect()', 100);
+  setTimeout('Redirect()', 50);
   </script>
