@@ -3,7 +3,7 @@ const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
 function Redirect() 
             {  
-                window.location="http://yosef100.github.io/chavrusafinder/"; 
+                window.location="http://yosef100.github.io/chavrusafinder/home"; 
             }
 // When the login button is clicked, the following code is executed
 loginButton.addEventListener("click", (e) => {
@@ -17,10 +17,10 @@ loginButton.addEventListener("click", (e) => {
         // If the credentials are valid, show an alert box and reload the page
          
      
-        setTimeout('Redirect()', 1500); 
+        setTimeout('Redirect()', 1000); 
         loginErrorMsg.style.opacity = 0;
         
-        alert("You have successfully logged in.");
+        //alert("You have successfully logged in.");
        
         
     } else {
