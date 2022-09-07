@@ -13,33 +13,24 @@
         height: 100vh;
       }
         </style>
+        <script type="text/javascript">
+        function doSomething()
+        {
+           window.location="http://yosef100.github.io/chavrusafinder/blank"
+        }
+
+        function doSomethingElse() 
+        {
+           window.location="http://yosef100.github.io/chavrusafinder/"
+        }
+    </script>
     </head>
     <body>
  
-    <h1>Chavrusa Finder</h1>
-      <h2>Find your chavrusa here!</h2>
+    <h1>Find your chavrusa here!</h1>
+    <input type="button" onclick="doSomething()" value="Change Password" />
+    <input type="button" onclick="doSomethingElse()" value="Logout" />
     
-    <button id="clicker">Change Password</button>
-    
-    <script>
-    function Redirect() 
-    {  
-         window.location="http://yosef100.github.io/chavrusafinder/blank"
-    } 
-     
-    
-    // 1. Find and store the element we want to listen to events on.
-    var clickerButton = document.getElementById("clicker");
-    // 2. Define the function that will respond to the event.
-    // callback 
-    var onButtonClick = function() {
-        //clickerButton.textContent = "Oh wow, you clicked me!";
-        setTimeout('Redirect()', 1000);
-    };
-    // 3. Add the event listener for the element and function
-    // anonymous "inline"
-    clickerButton.addEventListener("click", onButtonClick);
-    
-    </script>
+   
     </body>
 </html>
