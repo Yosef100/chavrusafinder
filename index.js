@@ -3,7 +3,7 @@ const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
 function Redirect() 
             {  
-                window.location="http://www.google.com"; 
+                window.location="http://yosef100.github.io/chavrusafinder/"; 
             }
 // When the login button is clicked, the following code is executed
 loginButton.addEventListener("click", (e) => {
